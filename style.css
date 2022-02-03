@@ -1,0 +1,85 @@
+body {
+    background: url("binary-code-background.jpg");
+    background-size: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    height: 600px;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.box {
+    background-color: aqua;
+}
+
+#result-text, #generate-button, #copy-password {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#result-text {
+    font-family: monospace;
+    color: rgb(9, 255, 0);
+    border: solid 5px rgb(26, 26, 26);
+    border-radius: 15px;
+    background-color: rgb(26, 26, 26);
+    transition: all 350ms ease;
+}
+
+#generate-button {
+    font-family: monospace;
+    color: rgb(9, 255, 0);
+    border: solid 5px rgb(26, 26, 26);
+    border-radius: 13px;
+    background-color: rgb(26, 26, 26);
+    transition: all 350ms ease;
+
+    cursor: pointer;
+}
+
+#copy-password {
+    font-family: monospace;
+    color: rgb(9, 255, 0);
+    border: solid 5px rgb(26, 26, 26);
+    border-radius: 13px;
+    background-color: rgb(26, 26, 26);
+    transition: all 350ms ease;
+
+    cursor: pointer;
+}
+
+#generate-button:hover {
+    transform: scale(1.1);
+}
+
+#generate-button:active {
+    transform: scale(0.99);
+}
+
+#copy-password:hover {
+    transform: scale(1.1);
+}
+
+#copy-password:active {
+    transform: scale(0.99);
+}
+
+#copy-password:hover, #generate-button:hover {
+    border: solid rgb(0, 255, 0) 2px;
+}
+
+#credits {
+    color:rgb(0, 255, 0);
+    font-family: "Consolas";
+    font-size: 30px;
+}
